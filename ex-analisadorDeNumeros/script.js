@@ -47,14 +47,14 @@ function analisar() {
 
 //funções de funcionamento...
 function isNumero(n) {
-    if (1 <= Number(n) && Number(n) <= 100) {
+    if (1 <= (n) && (n) <= 100) {
         return true
     } else {
         return false
     }
 }
 function inLista(n, l) {
-    if (l.indexOf(Number(n)) != -1) {
+    if (l.indexOf((n)) != -1) {
         return true
     } else {
         return false
