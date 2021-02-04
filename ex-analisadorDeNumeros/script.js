@@ -5,7 +5,7 @@ var num = document.getElementById('num')
 
 function add() {
     var n = Number(num.value)
-    if (isNumero(num.value) && !inLista(num.value, vet)) {
+    if (isNumero(n) && !inLista(n, vet)) {
         vet.push(n)
         var item = document.createElement('option')
         item.text = `O número ${n} foi adicionado`
